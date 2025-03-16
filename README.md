@@ -81,7 +81,7 @@ For Windows
    Make sure you have already accepted huggingface agreements.
    Script uses uv (which it tries to install if not already exists).
 
-   **IMPORTANT**: Be patient! First run will install the required models along with whisper model for transcriptions which, depending on your internet speed, can take a while. Go get a coffee.
+   **IMPORTANT**: Be patient! The first run will install the required models along with the whisper model for transcriptions. This process can take a while depending on your internet speed. Go get a coffee.
 
 4. If everything went well then app should be running at port 1885. 
    Load [http://localhost:1885](http://localhost:1885) and you should see CSM UI.
