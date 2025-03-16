@@ -61,6 +61,7 @@ if "%VIRTUAL_ENV%"=="" (
 )
 
 REM Check for whisper model and download if not present
+echo Checking for Whisper package...
 python -c "import importlib.util; print(1 if importlib.util.find_spec('whisper') else 0)" > temp.txt
 set /p WHISPER_INSTALLED=<temp.txt
 del temp.txt
@@ -72,7 +73,7 @@ if "!WHISPER_INSTALLED!"=="0" (
 
 REM Check if the 'base' model is already downloaded
 if not exist "%USERPROFILE%\.cache\whisper\base.pt" (
-    echo Downloading Whisper base model (this may take a minute)...
+    echo Downloading Whisper base model (this may take a minute^)...
     python -c "import whisper; whisper.load_model('base')" || echo Failed to download Whisper model. Will attempt on first use.
 )
 
