@@ -100,7 +100,7 @@ cd csm-ui
 ```bash
 uv venv --python==3.10
 source .venv/bin/activate  # On Windows, use .venv\Scripts\activate
-pip install -r requirements.txt
+uv pip install -r requirements.txt
 ```
 
 3. Install the Node.js dependencies:
