@@ -71,6 +71,11 @@ cd csm-ui
 ```bash
 ./start.sh
 ```
+
+For Windows
+```bash
+./start.bat
+```
    (It will set up everything and run the front end)
 
    Make sure you have already accepted huggingface agreements.
