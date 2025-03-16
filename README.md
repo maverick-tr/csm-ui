@@ -1,8 +1,9 @@
 # CSM UI
 
-A beautiful dark-themed shadcn interface for the [CSM](https://github.com/SesameAILabs/CSM) model by Sesame AI Labs.
+A simple dark themed interface for testing and basic context management of the [CSM](https://github.com/SesameAILabs/CSM) base model by Sesame AI Labs.
 
-## All thanks, credits and acknowledgements to SesameAILabs/CSM team for this incredible base model  🙏 🙏 🙏
+## All credits and acknowledgements to SesameAILabs/CSM team. 🙏 
+As they have mentioned, this is a base model and will require finetuning to get the consistent desired results. Hopefully this interface can get you started.
 
 ## Demo & Screenshots
 <div align="center">
