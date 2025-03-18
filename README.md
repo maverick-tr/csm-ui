@@ -126,8 +126,6 @@ The script provides several options to customize how the application runs:
 
 By default, the script runs the application in production mode on port 1885.
 
-For more details on using the start script, please see [Start Script Documentation](./docs/START_SCRIPT.md).
-
 Or run them separately:
 
 1. Start the Next.js development server:
